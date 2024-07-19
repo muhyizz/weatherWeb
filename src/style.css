@@ -1,0 +1,31 @@
+/*Reset default browser styles*/
+body,
+div,
+header,
+label,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main-body {
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px red solid;
+}
+
+#gridBody {
+  min-height: 100%;
+  min-width: 80%;
+
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr;
+
+  border: 1px blue solid;
+}
